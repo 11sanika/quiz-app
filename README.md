@@ -39,15 +39,14 @@ A fully functional **React-based Quiz Application** featuring authentication, ti
 
 ## 📁 Project Structure
 src/
-│── App.js
-│── Login.js
-│── Quiz.js
-│── Result.js
-│── Leaderboard.js
-│── data.js
-│── styles.css
-│── index.js
-
+├── App.js 
+├── Login.js 
+├── Quiz.js 
+├── Result.js 
+├── Leaderboard.js 
+├── data.js 
+├── styles.css 
+└── index.js 
 ---
 
 ## Timer Logic
@@ -72,7 +71,7 @@ After completing the quiz, users can see:
 
 ## Installation & Run Locally
 
-1️ **Clone the repository**
+**Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/quiz-app.git
+git clone https://github.com/11sanika/quiz-app.git
 cd quiz-app
