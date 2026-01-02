@@ -1,70 +1,126 @@
-# Getting Started with Create React App
+ React Quiz Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully functional React-based Quiz Application with authentication, timer-based questions, detailed result analysis, score percentage calculation, and a dynamic leaderboard.
+Designed with clean UI and deployed using GitHub Pages.
 
-## Available Scripts
+ Live Demo
 
-In the project directory, you can run:
+ Live URL:
+https://YOUR_USERNAME.github.io/quiz-app
 
-### `npm start`
+Replace YOUR_USERNAME with your GitHub username.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Login system (username-based)
+- React MCQ quiz questions
+- Timer for each question
+- Auto-submit when time runs out
+- Score calculation
+- Score percentage display
+- Detailed result analysis:
 
-### `npm test`
+Correct answer
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Selected answer
 
-### `npm run build`
+Status (Correct / Wrong)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Leaderboard with user scores
+- Navigation options:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Back to Quiz
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Back to Home (Login Page)
 
-### `npm run eject`
+ Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Frontend: React.js
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Styling: CSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+State Management: React Hooks
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Deployment: GitHub Pages
 
-## Learn More
+Project Structure
+src/
+│── App.js
+│── Login.js
+│── Quiz.js
+│── Result.js
+│── Leaderboard.js
+│── data.js
+│── styles.css
+│── index.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Timer Logic
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Each question has a fixed time limit
 
-### Code Splitting
+If the timer reaches zero:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Question auto-submits
 
-### Analyzing the Bundle Size
+Moves to next question
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Result Analysis
 
-### Making a Progressive Web App
+After quiz submission, users can see:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Total score
 
-### Advanced Configuration
+Percentage score
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Question-wise analysis
 
-### Deployment
+Correct vs selected answers
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Installation & Run Locally
+1️ Clone the Repository
+git clone https://github.com/YOUR_USERNAME/quiz-app.git
+cd quiz-app
 
-### `npm run build` fails to minify
+2️ Install Dependencies
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3️ Start the App
+npm start
+
+
+App runs on:
+
+http://localhost:3000
+
+Deployment (GitHub Pages)
+1️ Install gh-pages
+npm install gh-pages --save-dev
+
+2️ Add to package.json
+"homepage": "https://YOUR_USERNAME.github.io/quiz-app"
+
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+
+3️ Deploy
+npm run deploy
+
+Future Enhancements
+
+Firebase authentication
+
+Admin panel for adding questions
+
+Difficulty levels
+
+Dark mode
+
+Quiz category selection
+
+Author
+
+Sanika Dhage
+Computer Science Engineering Student
+React & Frontend Development Enthusiast
