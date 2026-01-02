@@ -1,14 +1,15 @@
-React Quiz Application
+🧠 React Quiz Application
 
 A fully functional React-based Quiz Application with authentication, timer-based questions, detailed result analysis, score percentage calculation, and a dynamic leaderboard.
 Designed with clean UI and deployed using GitHub Pages.
 
-Live Demo
+🚀 Live Demo
 
 🔗 Live URL:
 https://11sanika.github.io/quiz-app
 
-Features
+
+📌 Features
 
 ✅ Login system (username-based)
 ✅ React MCQ quiz questions
@@ -31,7 +32,7 @@ Back to Quiz
 
 Back to Home (Login Page)
 
-Tech Stack
+🛠️ Tech Stack
 
 Frontend: React.js
 
